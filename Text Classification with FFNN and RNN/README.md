@@ -78,7 +78,7 @@ Let $\mathbf{x}_t$ be the input at time step $t$ and $\mathbf{h}_t$ be the hidde
    $$\mathbf{h}_t = \sigma\(\mathbf{W}_{xh} \mathbf{x}_t + \mathbf{W}_{hh} \mathbf{h}_{t-1} + \mathbf{b}_h\)$$
    
 
-   where ${\mathbf{W}}_{xh}$ is the input-to-hidden weight matrix, $\mathbf{W}_{hh}$ is the hidden-to-hidden weight matrix, and $\mathbf{b}_h$ is the bias vector.
+   where \mathbf{W}_{xh} is the input-to-hidden weight matrix, $\mathbf{W}_{hh}$ is the hidden-to-hidden weight matrix, and $\mathbf{b}_h$ is the bias vector.
 
 3. **Output Calculation:**
 
